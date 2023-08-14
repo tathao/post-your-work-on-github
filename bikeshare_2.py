@@ -214,7 +214,7 @@ def display_five_raw_data(df):
             print(df.iloc[row: row + 5])
             row = row + 5
             more_five_row = input("\nDo you want to see more five rows ? Yes or No: \n").lower()
-            if more_five_row != 'yes':
+            if more_five_row != 'yes':  # Mean do more show 5 rows
                 break
 
 
